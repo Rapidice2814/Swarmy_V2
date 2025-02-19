@@ -1,8 +1,12 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Pringles_V2",
             "includePath": [
+                "${workspaceFolder}/Pringles_V2/Core/Inc/**",
+                "${workspaceFolder}/Pringles_V2/Drivers/STM32F0xx_HAL_Driver/Inc/**",
+                "${workspaceFolder}/Pringles_V2/Drivers/CMSIS/Device/ST/STM32F0xx/Include/**",
+                "C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [
